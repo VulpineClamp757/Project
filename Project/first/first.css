@@ -21,7 +21,6 @@ body {
 }
 
 
-/* Питання */
 .question {
   margin-top: 200px;
 }
@@ -65,7 +64,7 @@ body {
   opacity: 1;
 }
 
-/* Календар */
+
 .calendar-wrapper {
   border: 2px solid white;
   border-radius: 12px;
