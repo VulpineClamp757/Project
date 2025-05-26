@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Який в тебе сьогодні настрій?</title>
+  <link rel="stylesheet" href="first.css"> 
+</head>
+<body>
+  <div class="question">
+    <div class="text">
+      <img src="images/текст.png" alt="текст">
+    </div>
+    
+    <div class="emojis">
+      <div class="emoji-wrapper">
+        <button class="emoji" onclick="selectMood('happy')"> 
+          <img src="images/happy.png" alt="Счастлив">
+        </button>
+        <span class="emoji-text">Гарне</span>
+      </div>
+
+      <div class="emoji-wrapper">
+        <button class="emoji" onclick="selectMood('normal')"> 
+          <img src="images/normal.png" alt="Нормально">
+        </button>
+        <span class="emoji-text">Нормальне</span>
+      </div>
+
+      <div class="emoji-wrapper">
+        <button class="emoji" onclick="selectMood('bad')"> 
+          <img src="images/bad.png" alt="Погано">
+        </button>
+        <span class="emoji-text">Погане</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
